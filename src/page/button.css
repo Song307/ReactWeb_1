@@ -1,0 +1,68 @@
+/* btn-hover.color 공통 CSS 시작 */ 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .buttons {
+    margin: 10%;
+    text-align: center;
+    
+    
+  }
+  
+  .btn-hover {
+    padding: 0px 40px 0px 40px; /* 버튼 내부 여백 */
+    font-size: 13px; /* 폰트 크기 */
+    font-weight: 600; /* 폰트 굵기 */
+    color: #fff; /* 폰트 색상 */
+    cursor: pointer;
+    margin: 5px 5px 20px 5px;
+    width: 200px;
+    height: 80px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 0px;
+
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:hover {
+    background-position: 100% 0;
+
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    width: 210px;
+    height: 85px;
+    font-size : 16px;
+  }
+  
+  .btn-hover:focus {
+    outline: none;
+  }
+  /* btn-hover.color 공통 CSS 끝 */
+  
+  /* CSS 버튼5 */
+  .btn-hover.color-5 {
+    background-image: linear-gradient(to right, #8755d6, #4b059b, #170558, #5f67cf);
+    box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+    display: inline-block; display: inline-block;
+  }
+  /* CSS 버튼5 끝 */
+
+  .divinline {
+    display: inline-block;
+  }
+
+
+
+
+
+
+
+

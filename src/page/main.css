@@ -1,0 +1,390 @@
+.ex1 {color : white; padding : 40px 0px 0px 800px; margin : 0px 0px 10px 0px; text-shadow : 1px 1px black;}
+.ex1 ul {padding : 0; margin : 0; width : 700px;}
+.ex1 ul li {display : inline-block; list-style-type : none; padding : 0px 15px;}
+.ex1 ul li a {color : white; text-decoration : none; transition: font-size 1s;}
+.ex1 ul li a:hover {color : violet; font-size : 110%;}        
+.headline {display : inline-block; background-color : skyblue; color : white ; width : 100%; height : 50px; display : inline-block;}
+.headline_logo { margin : -37px 400px; padding : 0px;}   
+.headline_contents { height: 70px; padding : 0px ; margin : -23px 0px;}    
+
+.mainheader {
+    background-image : url("https://i.ibb.co/m8HHKyC/005.png");
+    background-color : white;
+    background-position : center center;
+    background-repeat : no-repeat;
+    width : 100%;
+    height: 749px;
+    padding : 10px 0px 0px 0px ;
+  }
+
+  .mainheader1 {
+    background-position : center center;
+    background-repeat : no-repeat;
+    width : 100%;
+    height: 70px;
+    padding : 0px ;
+    margin : -23px 0px;
+  }    
+  
+  .h2 {
+    color : white;
+    text-align : center;
+    font-size : 50px;
+  }
+  
+
+  .nav1 {
+    margin : 0px 300px;
+        
+  }
+  
+  .navtitle { 
+    text-align:center;
+    display: inline-block;
+    
+  }
+  
+  .navtitle img {
+    margin : 10px 0px 0px 0px;
+    transition : background-color 0.8s;
+    cursor : pointer;
+  }
+    
+    
+  .navidd {
+    background-image : url("https://i.ibb.co/TM9CGVw/001.png");
+    height : 110px;
+    margin : -20px 0px ;
+    text-align: center;
+    
+  }
+  
+  .title {
+    text-align:center;
+    transition : 1s;
+    height: 850px;
+    padding : 90px 0px 0px 0px;
+    margin-top: -30px;
+  }
+  .title:hover { margin : -50px 0px 0px 0px; background-color : rgba(0,0,0,0.8) ; display: block;}
+  .title:active { background-color : rgba(0,0,0,0.8) ; }
+
+  .title_start{
+    color : white;
+    text-decoration: none;
+    transition: 1s;
+    opacity: 0;
+    margin-top: 1150px;
+    padding: 50px 100px 200px 100px;
+  }
+  .title_start:hover{
+    opacity: 0.9;
+  }
+
+.p_1 {
+  margin-top: -80px;
+  margin-bottom: 100px;
+  color :white;
+  font-size: 15px;
+}
+
+
+.hr1{
+  width : 95%;
+}
+.mainNav{
+  margin:0px 500px; height : 1980px; width : 799px;
+}
+
+  
+
+
+  .HTMLcontents {color : white; padding : 0px 0px 0px 450px; margin : 0px 0px 10px 0px; text-shadow : 1px 1px black;}
+    .HTMLcontents ul {padding : 0; margin : 0; width : 700px;}
+    .HTMLcontents ul li {display : inline-block; list-style-type : none; padding : 0px 15px;}
+    .HTMLcontents ul li a {color : white; text-decoration : none; transition: font-size 1s;}
+    .HTMLcontents ul li a:hover {color : violet; font-size : 110%;}        
+    .HTMLcontents_headline {display : inline-block; background-color : skyblue; color : white ; width : 100%; height : 50px; display : inline-block;}
+    .HTMLcontents_headline_logo { margin : -37px 400px; padding : 0px;}   
+    .HTMLcontents_headline_contents { height: 70px; padding : 0px ; margin : -23px 0px;}  
+
+  .contents {float : left; background-color : #0100FF; color : white; width : 150px; height : 2000px; margin-left : 400px; text-align : center;}
+  .contents {text-align : right; width : 140px; height : 50px; line-height: 50px; background-color : #0054FF; margin : 10px 0px -5px 5px; transition: width 1s; }
+  .contents:hover {width: 150px;}
+  .contents a {color: white; margin : 5px; text-decoration : none;}  
+
+
+  header#title {background-color : #0054FF; color : white; width : 977px; height : 200px; text-align : center; margin : -20px 500px -45px 400px;}
+  header#title h1 {padding : 80px 0px 0px 600px; font-size : 50px;}
+  
+  
+  #post {padding : 0px 200px;}
+  #post h1 {background-color:#0054FF; color:white; line-height:50px; height:50px; text-align : left; font-size:25px;}
+
+  .fieldset {margin:0px 500px; height : 1980px; width : 799px;}
+
+  .header_title {background-color : #0054FF; color : white; width : 977px; height : 200px; text-align : center; margin : -20px 500px -45px 400px;}
+  .header_title h1 {padding : 80px 0px 0px 600px; font-size : 50px; color: white; text-shadow: 1px 1px black}
+
+
+.MainField {
+  width: 100%;
+  background-color: #0054FF;
+  height: 800px;
+}
+
+
+
+
+
+
+  .down_botton {
+    text-align: center;
+
+  }
+
+
+
+
+
+
+
+
+/* btn-hover.color 공통 CSS 시작 */ 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.buttons {
+  margin: 10%;
+  text-align: center;
+}
+
+.btn-hover {
+  padding: 15px; /* 버튼 내부 여백 */
+  font-size: 16px; /* 폰트 크기 */
+  font-weight: 600; /* 폰트 굵기 */
+  color: #fff; /* 폰트 색상 */
+  cursor: pointer;
+  margin: 5px;
+  width:  50px;
+  height: 55px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 0px;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  width: 55px;
+  height: 60px;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+/* btn-hover.color 공통 CSS 끝 */
+
+
+/* CSS 버튼6 */
+.btn-hover.color-6 {
+  background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+  box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+/* CSS 버튼6 끝 */
+
+
+
+/* btn-hover.color 공통 CSS 시작 */ 
+* {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.buttons {
+margin: 10%;
+text-align: center;
+
+
+}
+
+.btn-hover {
+padding: 0px 40px 0px 40px; /* 버튼 내부 여백 */
+font-size: 13px; /* 폰트 크기 */
+font-weight: 600; /* 폰트 굵기 */
+color: #fff; /* 폰트 색상 */
+cursor: pointer;
+margin: 15px 5px 20px 5px;
+width: 200px;
+height: 80px;
+text-align:center;
+border: none;
+background-size: 300% 100%;
+border-radius: 0px;
+
+-o-transition: all .4s ease-in-out;
+-webkit-transition: all .4s ease-in-out;
+transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+background-position: 100% 0;
+
+-o-transition: all .4s ease-in-out;
+-webkit-transition: all .4s ease-in-out;
+transition: all .4s ease-in-out;
+width: 210px;
+height: 85px;
+font-size : 16px;
+}
+
+.btn-hover:focus {
+outline: none;
+}
+/* btn-hover.color 공통 CSS 끝 */
+
+/* CSS 버튼5 */
+.btn-hover.color-5 {
+background-image: linear-gradient(to right, #8755d6, #4b059b, #170558, #5f67cf);
+box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+display: inline-block; display: inline-block;
+}
+/* CSS 버튼5 끝 */
+
+.divinline {
+display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-btn {
+  padding: 0px 40px 0px 40px; /* 버튼 내부 여백 */
+  /* width: 200px; 버튼 가로 크기 고정 */
+  height: 55px; /* 버튼 세로 크기 */
+  border-radius: 5px;
+  font-size:16px; /* 폰트 크기 */
+  font-weight: 600; /* 폰트 굵기 */
+  color: #fff; /* 글꼴 색상 */
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+}
+/* btn 공통 CSS 끝 */
+
+/* CSS 버튼11 */
+.left1{
+  text-align: left;
+  margin: 5px;
+}
+.btn-11 {
+  width: 40px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+  background: rgb(255,27,0);
+  background: linear-gradient(0deg, rgb(187, 172, 245) 0%, rgb(120, 175, 228) 100%);
+  display: inline-block;
+}
+
+.btn-11:hover {
+  color: #f0094a;
+  background: transparent;
+   box-shadow:none;
+}
+.btn-11:before,
+.btn-11:after{
+  content:'';
+  position:absolute;
+  top:0;
+  right:0;
+  height:2px;
+  width:0;
+  background: #f0094a;
+  box-shadow:
+   -1px -1px 5px 0px #fff,
+   7px 7px 20px 0px #0003,
+   4px 4px 5px 0px #0002;
+  transition:400ms ease all;
+}
+.btn-11:after{
+  right:inherit;
+  top:inherit;
+  left:0;
+  bottom:0;
+}
+.btn-11:hover:before,
+.btn-11:hover:after{
+  width:100%;
+  transition:800ms ease all;
+}
+/* CSS 버튼11 끝 */
+
+/* CSS 버튼15 */
+.btn-15 {
+  background: #b621fe;
+  border: none;
+  z-index: 1;
+}
+.btn-15:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #663dff;
+  border-radius: 5px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.btn-15:hover {
+  color: #fff;
+}
+.btn-15:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-15:active {
+  top: 2px;
+}
+/* CSS 버튼15 끝 */
+
+
+
+
+
+
+
+
+
+

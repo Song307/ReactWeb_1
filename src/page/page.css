@@ -1,0 +1,54 @@
+
+.divbackground{
+    width: 100%;
+    background-image: url("https://i.ibb.co/t3Cxb4t/mainbackground-2.gif") ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.navfield{
+    background-color : #0054FF;
+    width:300px;
+    height: 1298px;
+    display: inline-block;
+    float: left;
+    color : white;
+    padding: 100px 5px 5px 5px;
+}
+.navfield h1{
+    color:white;
+}
+.navfield hr{
+    border-width: 2px;
+    border-color: white;
+    width: 80%;
+}
+
+
+
+.mainfield{
+    width: 1200px;
+    height: 1300px;
+    border-width: 1.0px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    margin: 20px 0px ;
+    padding: 0px 0px 0px 0px;
+    display: inline-block;
+}
+
+.textbox{
+    margin-left: 300px;
+    margin-top: 20px;
+    height: 96%;
+    width: 850px;
+    padding: 30px;
+    text-align: left;
+}
+
+
+.textbox maintitle{ font-size: 30px; }
+.textbox time_post {color: cadetblue;}
+.textbox h2 {text-align:left; color:white; background-color: #0054FF; padding: 15px; font-size: 20px;font-weight: 600;}
+.textbox h3 {color:blue; font-size: 15px; font-weight: 600;}
+.textbox p {font-weight: 500px;}

@@ -1,0 +1,228 @@
+/* btn-hover.color 공통 CSS 시작 */ 
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ 
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+ 
+.btn-hover {
+    padding: 15px; /* 버튼 내부 여백 */
+    font-size: 16px; /* 폰트 크기 */
+    font-weight: 600; /* 폰트 굵기 */
+    color: #fff; /* 폰트 색상 */
+    cursor: pointer;
+    margin: 5px;
+    width:  50px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 0px;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+ 
+.btn-hover:hover {
+    background-position: 100% 0;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+    width: 55px;
+    height: 60px;
+}
+ 
+.btn-hover:focus {
+    outline: none;
+}
+/* btn-hover.color 공통 CSS 끝 */
+
+
+/* CSS 버튼6 */
+.btn-hover.color-6 {
+    background-image: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    box-shadow: 0 4px 15px 0 rgba(116, 79, 168, 0.75);
+}
+/* CSS 버튼6 끝 */
+
+
+
+/* btn-hover.color 공통 CSS 시작 */ 
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.buttons {
+  margin: 10%;
+  text-align: center;
+  
+  
+}
+
+.btn-hover {
+  padding: 0px 40px 0px 40px; /* 버튼 내부 여백 */
+  font-size: 13px; /* 폰트 크기 */
+  font-weight: 600; /* 폰트 굵기 */
+  color: #fff; /* 폰트 색상 */
+  cursor: pointer;
+  margin: 15px 5px 20px 5px;
+  width: 200px;
+  height: 80px;
+  text-align:center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 0px;
+
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+  background-position: 100% 0;
+
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  width: 210px;
+  height: 85px;
+  font-size : 16px;
+}
+
+.btn-hover:focus {
+  outline: none;
+}
+/* btn-hover.color 공통 CSS 끝 */
+
+/* CSS 버튼5 */
+.btn-hover.color-5 {
+  background-image: linear-gradient(to right, #8755d6, #4b059b, #170558, #5f67cf);
+  box-shadow: 0 4px 15px 0 rgba(229, 66, 10, 0.75);
+  display: inline-block; display: inline-block;
+}
+/* CSS 버튼5 끝 */
+
+.divinline {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.custom-btn {
+    padding: 0px 40px 0px 40px; /* 버튼 내부 여백 */
+    /* width: 200px; 버튼 가로 크기 고정 */
+    height: 55px; /* 버튼 세로 크기 */
+    border-radius: 5px;
+    font-size:16px; /* 폰트 크기 */
+    font-weight: 600; /* 폰트 굵기 */
+    color: #fff; /* 글꼴 색상 */
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+  }
+  /* btn 공통 CSS 끝 */
+
+  /* CSS 버튼11 */
+.left1{
+    text-align: left;
+    margin: 5px;
+}
+.btn-11 {
+    width: 40px;
+    height: 40px;
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    background: rgb(255,27,0);
+    background: linear-gradient(0deg, rgb(187, 172, 245) 0%, rgb(120, 175, 228) 100%);
+    display: inline-block;
+  }
+  
+  .btn-11:hover {
+    color: #f0094a;
+    background: transparent;
+     box-shadow:none;
+  }
+  .btn-11:before,
+  .btn-11:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: #f0094a;
+    box-shadow:
+     -1px -1px 5px 0px #fff,
+     7px 7px 20px 0px #0003,
+     4px 4px 5px 0px #0002;
+    transition:400ms ease all;
+  }
+  .btn-11:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-11:hover:before,
+  .btn-11:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  /* CSS 버튼11 끝 */
+
+  /* CSS 버튼15 */
+.btn-15 {
+    background: #b621fe;
+    border: none;
+    z-index: 1;
+  }
+  .btn-15:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #663dff;
+    border-radius: 5px;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    transition: all 0.3s ease;
+  }
+  .btn-15:hover {
+    color: #fff;
+  }
+  .btn-15:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .btn-15:active {
+    top: 2px;
+  }
+  /* CSS 버튼15 끝 */
