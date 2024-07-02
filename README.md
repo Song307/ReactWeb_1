@@ -1,9 +1,8 @@
 
 1. Visual Studio Code 프로그램을 열어 터미널을 통해 해당 디렉토리로 이동합니다.
 2. 터미널 창에 'npm install'를 입력하여 노드 모듈을 설치합니다.
-3. 'npm install react-bootstrap bootstrap'를 입력하여 bootstrap 모듈을 설치합니다.
-4. 'npm install react-router-dom '를 입력하여 router-dom 모듈을 설치합니다.
-5. 실행 : 'npm run start' 을 입력하여 localhost:3000으로 호스팅을 실행합니다.
+3. 'npm install react-router-dom '를 입력하여 router-dom 모듈을 설치합니다.
+4. 실행 : 'npm run start' 을 입력하여 localhost:3000으로 호스팅을 실행합니다.
 
 
 
